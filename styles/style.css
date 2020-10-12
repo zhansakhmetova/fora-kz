@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a,
+h4,
+p,
+h5,
+h6 {
+  font-size: 1.2rem;
+}
+
+header {
+  min-height: 10vh;
+  -webkit-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+header .top-header {
+  background-color: #ff3e3e;
+  padding: 0.8rem;
+}
+
+header .top-header .faq-items {
+  margin: 0 auto;
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .top-header .faq-items li {
+  list-style: none;
+}
+
+header .top-header .faq-items li a {
+  line-height: 1.8rem;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+header .top-header .faq-items li .auth {
+  font-style: italic;
+  font-weight: 400;
+}
+
+header .top-header .faq-items li .auth::before {
+  content: "";
+  display: block;
+  background-image: url("../icons/auth-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 0.8rem;
+  height: 0.95rem;
+  float: left;
+  margin: 0.4rem 0.5rem;
+}
+
+header .logo-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.5rem;
+}
+
+header .nav-header {
+  margin: 0 auto;
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .nav-header .categories {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem 0 2.1rem 0rem;
+}
+
+header .nav-header .categories li {
+  text-align: center;
+  list-style: none;
+}
+
+header .nav-header .categories li a {
+  line-height: 2.25rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+header .nav-header .categories li .catalog::before {
+  content: "";
+  display: block;
+  background-image: url("../icons/menu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1.5rem;
+  height: 1.5rem;
+  float: left;
+  margin: 0.4rem 0.06rem 0.5rem 0;
+}
+
+header .search-header {
+  padding: 1.2rem 0 1.2rem 0;
+  width: 65%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .search-header .search {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+header .search-header .search input {
+  background: #ff3e3e;
+  padding: 0.8rem 1.7rem;
+  border: none;
+  color: white;
+  border-radius: 1.4rem;
+  width: 100%;
+}
+
+header .search-header .search input::-webkit-input-placeholder {
+  opacity: 1;
+  color: white;
+  font-size: 1.2rem;
+}
+
+header .search-header .search input:-ms-input-placeholder {
+  opacity: 1;
+  color: white;
+  font-size: 1.2rem;
+}
+
+header .search-header .search input::-ms-input-placeholder {
+  opacity: 1;
+  color: white;
+  font-size: 1.2rem;
+}
+
+header .search-header .search input::placeholder {
+  opacity: 1;
+  color: white;
+  font-size: 1.2rem;
+}
+
+header .search-header .icons {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .search-header .icons .icon {
+  margin: 0 0 0 2.5rem;
+}
+
+main {
+  width: 65%;
+  margin: 0 auto;
+}
+
+main .choose-category {
+  min-height: 80vh;
+}
+
+main .choose-category .advert-block {
+  width: 100%;
+  height: 100%;
+}
+
+main .choose-category .advert-block img {
+  width: 100%;
+}
+
+main .choose-category .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .choose-category .container .head-text {
+  margin: 2rem 0 3rem 0;
+}
+
+main .choose-category .container .head-text h1 {
+  font-weight: 400;
+  line-height: 3.7rem;
+}
+
+main .choose-category .container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40rem;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .choose-category .container .cards .card {
+  width: 23%;
+  position: relative;
+}
+
+main .choose-category .container .cards .card h1 {
+  color: white;
+  font-weight: 400;
+  position: absolute;
+  bottom: 2.2rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main .choose-category .container .cards .card .card-img {
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .choose-category .container .cards .card .card-img:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+main .choose-category .container .cards .card .smartphone {
+  background-image: url("../images/smartphone.jpg");
+}
+
+main .choose-category .container .cards .card .electronics {
+  background-image: url("../images/electronics.jpg");
+  background-position: 75% 60%;
+}
+
+main .choose-category .container .cards .card .computer {
+  background-image: url("../images/computer.jpg");
+}
+
+main .choose-category .container .cards .card .another {
+  background-image: url("../images/another.jpg");
+}
+/*# sourceMappingURL=style.css.map */
